@@ -2,7 +2,7 @@ package CGI::Application::Standard::Config;
 use base 'Exporter';
 use vars (qw/@EXPORT $VERSION/);
 
-$VERSION = 1;
+$VERSION = '1.01';
 
 # Note: We are loading the config plugin into our callers
 # namespace, not our own!
@@ -168,6 +168,13 @@ This is 1.0 of the CGI::Application L<config()> standard.
 
 Written by Mark Stosberg <mark@summersault.com> with input from the
 CGI::Application community.  
+
+=head1 COPYRIGHT and LICENSE
+
+Copyright (C) 2008, Mark Stosberg.  All rights reserved.  
+
+This library is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.
 
 =cut
 
